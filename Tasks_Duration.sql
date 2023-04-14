@@ -20,7 +20,7 @@ HISTÓRICO
          CONVERT(DATE,I.inicio,112)                                   AS DATA, 
          LEFT(CONVERT(TIME,I.inicio,112),8)                           AS HORA_INICIO,
          LEFT(CONVERT(TIME,F.fim,112),8)                              AS HORA_FIM,
-	  NOME_DATABASE.dbo.FUNC_CALCULA_DURACAO(I.inicio,F.fim)       AS DURACAO
+	 NOME_DATABASE.dbo.FUNC_CALCULA_DURACAO(I.inicio,F.fim)       AS DURACAO -- Verifique o arquivo Duration_Calc.sql no diretório raiz
     FROM (
        -- O primeiro SUBSELECT é utilizado para obter dados de início das tarefas
             SELECT [source],
