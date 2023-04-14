@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Language-TSQL-orange?style=flat&logo" alt="T-SQL">
 </p>
 
-## Summary
+## Sumário
 
 * [Introdução](#introducão)
 * [Contribuição](#contribuição)
